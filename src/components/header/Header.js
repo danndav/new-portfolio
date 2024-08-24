@@ -19,7 +19,7 @@ function Header() {
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
-  const viewAchievement = achievementSection.display;
+  // const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
@@ -51,16 +51,16 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {/* {viewOpenSource && (
+          {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
             </li>
-          )} */}
-          {viewAchievement && (
+          )}
+          {/* {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
             </li>
-          )}
+          )} */}
           {/* {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
@@ -73,7 +73,7 @@ function Header() {
           )} */}
           {viewResume && (
             <li>
-              <a href="#resume">Resume</a>
+              <a href="https://docs.google.com/document/d/1K6ja6-p4V-fFcvs_9KdWhY6KUAhrLngaWhWPApymu3A/pub" target="_blank">Resume</a>
             </li>
           )}
           <li>

@@ -1,7 +1,7 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { bigProjects } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
@@ -13,7 +13,7 @@ export default function StartupProject() {
     win.focus();
   }
 
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
   }
@@ -48,6 +48,8 @@ export default function StartupProject() {
                       <img
                         src={project.image}
                         alt={project.projectName}
+                        height={100}
+                        width={100}
                         className="card-image"
                       ></img>
                     </div>

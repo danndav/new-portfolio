@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     " A passionate Full Stack Software Developer 🚀 with extensive experience in building dynamic web applications using JavaScript, React, Next.js, Node.js, and Java. Skilled in creating robust and scalable solutions with a keen eye for detail and a love for innovative technologies"),
   resumeLink:
-    "https://docs.google.com/document/d/1K6ja6-p4V-fFcvs_9KdWhY6KUAhrLngaWhWPApymu3A/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1K6ja6-p4V-fFcvs_9KdWhY6KUAhrLngaWhWPApymu3A/pub", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -251,25 +251,47 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/yeppayPic.png"),
+      projectName: "Yep Pay",
+      projectDesc: "A complete payment platform, designed & engineered for growth",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://app.yeppay.io"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/eslPic.png"),
+      projectName: "ESL- E-settlement limited",
+      projectDesc: "Serving unbanked and underserved communities with banking hall services and facilities.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://main--stellar-kringle-1a9b99.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/contentionaryPic.png"),
+      projectName: "Contentionary",
+      projectDesc: "A dashboard system to control student exams",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://contentionary.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/yepwebsitePic.png"),
+      projectName: "Yep Website",
+      projectDesc: "When it comes to money, you can do it all with Yep!Banking, Payments, Bills, Loans, Savings, Investments, Remittance? Yep!",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.getyep.co/"
         }
       ]
     }
