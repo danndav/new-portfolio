@@ -47,7 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "An enthusiastic Full Stack Developer with a strong desire to explore and master diverse tech stacks, continually expanding expertise and embracing new challenges in the ever-evolving world of technology",
+  subTitle: "",//An enthusiastic Full Stack Developer with a strong desire to explore and master diverse tech stacks, continually expanding expertise and embracing new challenges in the ever-evolving world of technology",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Build and maintain scalable back-end systems using NodeJS, Java, and other frameworks"),
@@ -195,7 +195,7 @@ const workExperiences = {
     {
       role: "Software Engineer - Team Lead",
       company: "Profitall",
-      companylogo: require("./assets/images/profitall_logo.1839ca3a.svg"),
+      companylogo: require("./assets/images/Profitall Logo.png"),
       date: "May. 2021 – Present",
       desc: "Led development of a marketplace platform and a white-labeling solution, while integrating payment gateways and mentoring team members.",
       descBullets: [
@@ -205,7 +205,7 @@ const workExperiences = {
     {
       role: "Senior Software Engineer - Contract",
       company: "Creditchek",
-      companylogo: require("./assets/images/creditcheck.jpeg"),
+      companylogo: require("./assets/images/CreditChek Logo.png"),
       date: "Jan. 2021 – Feb. 2022",
       desc: "Focused on integrating financial data and enhancing product offerings through seamless integration of technologies and optimization of data processing.",
       descBullets: [
@@ -247,7 +247,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Major Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
