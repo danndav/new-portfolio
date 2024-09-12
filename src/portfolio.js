@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     " A passionate Full Stack Software Developer 🚀 with extensive experience in building dynamic web applications using JavaScript, React, Next.js, Node.js, and Java. Skilled in creating robust and scalable solutions with a keen eye for detail and a love for innovative technologies"),
   resumeLink:
-    "https://docs.google.com/document/d/1K6ja6-p4V-fFcvs_9KdWhY6KUAhrLngaWhWPApymu3A/pub", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1g3P6UJ9VsCKDU7vkl1HX1AFeb2NtGf1M/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -437,7 +437,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
